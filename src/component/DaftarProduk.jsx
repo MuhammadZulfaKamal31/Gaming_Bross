@@ -24,7 +24,7 @@ const DaftarProduct = () => {
     ]
     return (
         <>
-            <section class="flex px-32 mb-10">
+            <section class="flex px-32 pb-10 dark:bg-gray-800">
                 {items.map(({ title, Image, description }, i) => (
                     <div class="card card-compact w-96 bg-white shadow-xl static mx-5"
                         key={`intorduction_items_${i}`}>

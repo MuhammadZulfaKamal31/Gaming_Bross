@@ -2,9 +2,9 @@
 const Review = () => {
     return (
         <>
-            <section className="px-32 my-10">
-                <h1 style={{ fontSize: '30px', fontWeight: '600', color: 'black' }}>REVIEWS</h1>
-                <p className=" text-slate-500 text-lg">Belum ada review</p>
+            <section className="px-32 py-10 dark:bg-gray-800">
+                <h1 class="text-3xl font-semibold text-black dark:text-white">REVIEWS</h1>
+                <p className=" text-slate-500 dark:text-white text-lg ">Belum ada review</p>
             </section>
         </>
     )

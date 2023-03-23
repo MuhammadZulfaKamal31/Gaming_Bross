@@ -1,10 +1,11 @@
 
-
 const Navbar = () => {
+
     return (
         <>
             <div className="sticky top-0">
                 <div className="flex bg-blue-900 px-28 -h-10 ">
+
                     <div className="flex-1 text-white">
                         <a className="btn btn-ghost normal-case font-semibold text-base">PLAY FOR FREE @ PSe Sony PlayLounge</a>
                     </div>

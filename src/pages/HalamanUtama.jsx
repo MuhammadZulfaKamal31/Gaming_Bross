@@ -1,9 +1,12 @@
+import Navbar from "../components/Navbar";
+import Carousel from "../components/Carousel";
 
 const HalamanUtama = () => {
     return (
         <>
-            <h1>halaman utama belum ada</h1>
+            <Navbar />
+            <Carousel />
         </>
-    )
-}
+    );
+};
 export default HalamanUtama;

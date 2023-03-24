@@ -1,25 +1,35 @@
 import "./App.css";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { lazy, Suspense } from "react";
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HalamanDetail from "./pages/HalamanDetail";
-import Navbar from "./component/Navbar";
-import HalamanUtama from "./pages/HalamanUtama";
-import HalamanAbout from "./pages/HalamanAbout";
-import Footer from "./component/Footer";
+//implementasi lazy import
+const HalamanUtama = lazy(() => import("../src/pages/HalamanUtama"));
+const HalamanAbout = lazy(() => import("../src/pages/HalamanAbout"));
+const HalamanDetail = lazy(() => import("../src/pages/HalamanDetail"));
+
+//menggunakan react router dom versi terbaru.
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <HalamanUtama />,
+    },
+    {
+        path: "about",
+        element: <HalamanAbout />,
+    },
+    {
+        path: "/detail/:id",
+        element: <HalamanDetail />,
+    },
+]);
 
 function App() {
     return (
-        <Router>
-            <Navbar />
-            <div className="App">
-                <Routes>
-                    <Route exact path='/' element={<HalamanUtama />} />
-                    <Route path='/Detail' element={<HalamanDetail />} />
-                    <Route path='/About' element={<HalamanAbout />} />
-                </Routes>
-            </div>
-            <Footer />
-        </Router>
+        <div className="App">
+            <Suspense fallback={<div>Loading</div>}>
+                <RouterProvider router={router} />
+            </Suspense>
+        </div>
     );
 }
 

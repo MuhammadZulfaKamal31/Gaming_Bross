@@ -5,6 +5,7 @@ const HalamanAbout = () => {
     return (
         <>
             <Navbar />
+
             <div className="hero w-full h-[768px] bg-[url('https://wallpapercave.com/wp/wp7816746.jpg')]">
                 <div className="flex w-[337px] h-[118px] bg-black justify-center align-middle">
                     <p className="flex text-3xl text-white text-center self-center">

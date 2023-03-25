@@ -1,6 +1,7 @@
 import "./App.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { lazy, Suspense } from "react";
+import Login from "./pages/Login";
 
 //implementasi lazy import
 const HalamanUtama = lazy(() => import("../src/pages/HalamanUtama"));
@@ -11,6 +12,10 @@ const HalamanDetail = lazy(() => import("../src/pages/HalamanDetail"));
 const router = createBrowserRouter([
     {
         path: "/",
+        element: <Login />,
+    },
+    {
+        path: "pertama",
         element: <HalamanUtama />,
     },
     {

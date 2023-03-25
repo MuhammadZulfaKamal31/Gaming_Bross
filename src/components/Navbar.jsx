@@ -3,8 +3,8 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="sticky top-0">
-                <div className="flex bg-blue-900 px-28 -h-10 ">
+            <div className="sticky top-0 z-10">
+                <div className="flex bg-blue-900 px-28 -h-10">
 
                     <div className="flex-1 text-white">
                         <a className="btn btn-ghost normal-case font-semibold text-base">PLAY FOR FREE @ PSe Sony PlayLounge</a>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex items-center justify-between bg-slate-900 py-5 px-28">
                     <div className="text-white">
-                        <a className="btn btn-ghost normal-case text-2xl" href="index.html">GAMINGBROS</a>
+                        <a className="btn btn-ghost normal-case text-2xl" href="/halamanUtama">GAMINGBROS</a>
                     </div>
                     <div className="form-control w-[800px]">
                         <input type="text" placeholder="Search products here.."

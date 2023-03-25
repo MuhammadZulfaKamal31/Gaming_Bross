@@ -1,10 +1,13 @@
 import Navbar from "../components/Navbar";
+import About from "../components/About"
 import Footer from "../components/Footer";
+import FeedBackForm from "../components/FeedBackForm";
 
 const HalamanAbout = () => {
     return (
         <>
             <Navbar />
+<<<<<<< HEAD
 
             <div className="hero w-full h-[768px] bg-[url('https://wallpapercave.com/wp/wp7816746.jpg')]">
                 <div className="flex w-[337px] h-[118px] bg-black justify-center align-middle">
@@ -88,6 +91,10 @@ const HalamanAbout = () => {
                     </div>
                 </div>
             </div>
+=======
+            <About/>
+            <FeedBackForm/>
+>>>>>>> 808e149ecc7ba0c2ec6e3475db5f2312db4fbebd
             <Footer />
         </>
     );

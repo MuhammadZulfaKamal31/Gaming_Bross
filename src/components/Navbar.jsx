@@ -1,5 +1,5 @@
 
-import { FiShoppingCart,FiUser } from "react-icons/fi";
+import { FiShoppingCart, FiUser } from "react-icons/fi";
 
 const Navbar = () => {
 
@@ -34,7 +34,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex items-center justify-between bg-slate-900 py-5 px-28">
                     <div className="text-white">
-                        <a className="btn btn-ghost normal-case text-2xl" href="/halamanUtama">GAMINGBROS</a>
+                        <a className="btn btn-ghost normal-case text-2xl" href="/pertama">GAMINGBROS</a>
                     </div>
                     <div className="form-control w-[800px]">
                         <input type="text" placeholder="Search products here.."
@@ -42,10 +42,10 @@ const Navbar = () => {
                     </div>
                     <div className="flex gap-3 mr-5">
                         <a href="" className="text-white text-[25px] hover:text-gray-400">
-                           <FiShoppingCart/>
+                            <FiShoppingCart />
                         </a>
                         <a href="" tabindex="0" className="text-white text-[25px] hover:text-gray-400">
-                           <FiUser/>
+                            <FiUser />
                         </a>
                     </div>
                 </div>

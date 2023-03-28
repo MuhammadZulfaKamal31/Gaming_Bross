@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Wild Hearts - PlayStation 5",
+        "description": "Hunt giant nature-infused bests – Survive their attacks, learn from their behaviors, and use your Karakuri and your weapons in combination to cut these creatures down to size.",
+        "image": "https://m.media-amazon.com/images/I/81F925s0ZAL._SX385_.jpg",
+        "dissc": "429,000",
+        "price": "380,000"
+    },
+    {
+        "title": "Atomic Heart PS5",
+        "description": "Exclusive Physical Version Bonus DLC: Swede Weapon Skin and Electro Weapon Skin",
+        "image": "https://m.media-amazon.com/images/I/81wSlwccDDL._AC_SX679_.jpg",
+        "dissc": "529,000",
+        "price": "470,000"
+    },
+    {
+        "title": "Mato Anomalies - PlayStation 5",
+        "description": "Mato Anomalies is an anime-inspired RPG that intertwines the stories of two Protagonists to investigate and save an embattled city.",
+        "image": "https://m.media-amazon.com/images/I/81SzMYWw-IL._SX342_.jpg",
+        "dissc": "429,000",
+        "price": "399,000"
+    },
+    {
+        "title": "Scars Above - PlayStation 5",
+        "description": "Immerse yourself in an exciting sci-fi adventure inspired by the classics of the genre",
+        "image": "https://m.media-amazon.com/images/I/51GO+SYHD7L._SX342_SY445_.jpg",
+        "dissc": "329,000",
+        "price": "300,000"
+    }
+]

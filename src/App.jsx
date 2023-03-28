@@ -2,6 +2,8 @@ import "./App.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import Login from "./pages/Login";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 //implementasi lazy import
 const HalamanUtama = lazy(() => import("../src/pages/HalamanUtama"));
@@ -23,7 +25,7 @@ const router = createBrowserRouter([
         element: <HalamanAbout />,
     },
     {
-        path: "detail",
+        path: "pertama/detail",
         element: <HalamanDetail />,
     },
 ]);
@@ -32,7 +34,9 @@ function App() {
     return (
         <div className="App">
             <Suspense fallback={<div>Loading</div>}>
+                <Navbar />
                 <RouterProvider router={router} />
+                <Footer />
             </Suspense>
         </div>
     );

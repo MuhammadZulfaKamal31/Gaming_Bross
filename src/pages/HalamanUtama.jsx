@@ -1,18 +1,20 @@
 import Navbar from "../components/Navbar";
-import Carousel from "../components/Carousel";
 import SpecialGame from "../components/SpecialGame";
-import Card from "../components/Card"
+import Carousel2 from "../components/Carousel2";
 import Footer from "../components/Footer";
 import Categories from "../components/Categories";
+import FirstHome from "../components/FirstHome";
+import Carousel from "../components/Carousel";
 
 
 const HalamanUtama = () => {
     return (
         <>
             <Navbar />
-            <Carousel/>
+            <FirstHome/>
             <SpecialGame/>
-            <Card/>
+            <Carousel/>
+            <Carousel2/>
             <Categories/>
             <Footer/>
         </>

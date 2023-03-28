@@ -23,7 +23,7 @@ const router = createBrowserRouter([
         element: <HalamanAbout />,
     },
     {
-        path: "/detail/:id",
+        path: "detail",
         element: <HalamanDetail />,
     },
 ]);

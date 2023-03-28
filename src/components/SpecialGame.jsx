@@ -9,10 +9,10 @@ const SpecialGame = () => {
   return (
     <>
       <div className="px-36 py-14 bg-black">
-        <div className="flex items-center justify-center mb-10">
+        <div className="flex items-center justify-center">
           <h1 className="text-3xl font-bold text-white">SPECIAL GAMINGBROS</h1>
         </div>
-          <div className="flex gap-10 items-center justify-center my-10">
+          <div className="flex gap-10 items-center justify-center m-5">
               <img src={image1} alt="" className="w-[320px]" />
               <img src={image2} alt="" className="w-[320px]" />
               <img src={image3} alt="" className="w-[320px]" />

@@ -47,9 +47,9 @@ const Carousel = () => {
 		nextArrow: <CustomNextArrow />,
 		responsive: [
 			{
-				breakpoint: 1024,
+				breakpoint: 1500,
 				settings: {
-					slidesToShow: 1,
+					slidesToShow: 3,
 					slidesToScroll: 3,
 					infinite: true,
 					dots: true,
@@ -91,14 +91,14 @@ const Carousel = () => {
 						</div>
 					</div>
 					{/* carousel */}
-					<div className="-ml-5 my-10 w-[82%] mt-5 absolute md:right-0">
+					<div className="my-10 w-[82%] mt-5 absolute md:left-48">
 						<Slider {...settings}>
 							{Data.map(({ title, image, dissc, price }, i) => (
 								// card
 								<Link
 									key={`carousel_item_${i}`}
 									to=""
-									className="card border bg-white border-gray-200 w-full h-[340px] py-3 px-4 rounded-lg"
+									className="card border bg-white border-gray-200 w-full py-3 px-4 rounded-lg"
 								>
 									<div className="card-top">
 										<img className="object-cover mx-auto" src={image} alt="" />
@@ -107,7 +107,7 @@ const Carousel = () => {
 										<div className="tittle text-[14px] font-bold text-[#00a3ff]">
 											Games
 										</div>
-										<div className="flex flex-col justify-between h-32">
+										<div className="flex flex-col gap-2">
 											<div className="leading-4 text-16px w-full overflow-hidden">
 												<div className="judul whitespace-nowrap overflow-hidden text-ellipsis">
 													{title}

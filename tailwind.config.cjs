@@ -3,7 +3,11 @@ module.exports = {
     darkMode: "class", //supaya menambahkan class di htmlnya
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily:{
+                titilium:['Titillium Web', 'sans-serif']
+            }
+        },
     },
     plugins: [require("daisyui")],
     daisyui: {

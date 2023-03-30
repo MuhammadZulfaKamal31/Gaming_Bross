@@ -3,6 +3,7 @@ import Carousel2 from "../components/Carousel2";
 import Categories from "../components/Categories";
 import FirstHome from "../components/FirstHome";
 import Carousel from "../components/Carousel";
+import Card from "../components/Card"
 
 
 const HalamanUtama = () => {
@@ -11,7 +12,7 @@ const HalamanUtama = () => {
             <FirstHome />
             <SpecialGame />
             <Carousel />
-            <Carousel2 />
+            <Carousel />
             <Categories />
         </>
     );

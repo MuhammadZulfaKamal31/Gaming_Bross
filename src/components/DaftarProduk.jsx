@@ -1,4 +1,4 @@
-import Data from "./../Data.json"
+import Data from "../Data"
 import { Link } from "react-router-dom"
 
 const DaftarProduct = () => {

@@ -26,5 +26,47 @@
         "image": "https://m.media-amazon.com/images/I/51GO+SYHD7L._SX342_SY445_.jpg",
         "dissc": "329,000",
         "price": "300,000"
+    },
+    {
+        "title": "Star Wars Jedi: Survivor Deluxe - PlayStation 5",
+        "description": "Continue Cal's Journey - No longer a Padawan, Cal has come into his own and grown into a powerful Jedi Knight.",
+        "image": "https://m.media-amazon.com/images/I/61lGYA2aA9L._SX342_.jpg",
+        "dissc": "329,000",
+        "price": "300,000"
+    },
+    {
+        "title": "Call of Duty: Modern Warfare II - PlayStation 5",
+        "description": "Featuring the return of the iconic, team leader Captain John Price, the fearless John ",
+        "image": "https://m.media-amazon.com/images/I/912YUVcMLjL._AC_SX569_.jpg",
+        "dissc": "329,000",
+        "price": "300,000"
+    },
+    {
+        "title": "Marvel's Spider-Man: Miles Morales - PlayStation 5",
+        "description": "peter parker. Master his unique, bio-electric venom Blast attacks and covert camouflage power alongside spectacular web-slinging acrobatics, gadgets and skills. ",
+        "image": "https://m.media-amazon.com/images/I/71ez57A5HtL._SX385_.jpg",
+        "dissc": "329,000",
+        "price": "300,000"
+    },
+    {
+        "title": "Hot Wheels Unleashed - PlayStation 5",
+        "description": "Hot Wheels Unleashed - PlayStation 5",
+        "image": "https://m.media-amazon.com/images/I/71NNba-M-zL._SX342_.jpg",
+        "dissc": "329,000",
+        "price": "300,000"
+    },
+    {
+        "title": "The Last of Us Part I – PlayStation 5",
+        "description":"The Last of Us experience has been faithfully enhanced with more realistic lighting and atmosphere, more intricate environments and creative reimaginings of familiar spaces.",
+        "image": "https://m.media-amazon.com/images/I/81l41iKPF3L._SX385_.jpg",
+        "dissc": "329,000",
+        "price": "300,000"
+    },
+    {
+        "title": "NBA 2K23 - PlayStation 5",
+        "description":"NBA 2K23 - PlayStation 5",
+        "image": "https://m.media-amazon.com/images/I/816o-n47S8L._AC_SX679_.jpg",
+        "dissc": "329,000",
+        "price": "300,000"
     }
 ]
